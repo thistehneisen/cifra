@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SinfPaths</key>
+	<array>
+		<string>SC_Info/VTBAccounting.sinf</string>
+	</array>
+	<key>SinfReplicationPaths</key>
+	<array>
+		<string>Frameworks/Alamofire.framework/SC_Info/Alamofire.sinf</string>
+		<string>Frameworks/CryptoSwift.framework/SC_Info/CryptoSwift.sinf</string>
+		<string>Frameworks/DeepDiff.framework/SC_Info/DeepDiff.sinf</string>
+		<string>Frameworks/DeviceKit.framework/SC_Info/DeviceKit.sinf</string>
+		<string>Frameworks/FSPagerView.framework/SC_Info/FSPagerView.sinf</string>
+		<string>Frameworks/GoogleUtilities.framework/SC_Info/GoogleUtilities.sinf</string>
+		<string>Frameworks/IQKeyboardManagerSwift.framework/SC_Info/IQKeyboardManagerSwift.sinf</string>
+		<string>Frameworks/InputMask.framework/SC_Info/InputMask.sinf</string>
+		<string>Frameworks/KeychainAccess.framework/SC_Info/KeychainAccess.sinf</string>
+		<string>Frameworks/LeadKit.framework/SC_Info/LeadKit.sinf</string>
+		<string>Frameworks/LeadKitAdditions.framework/SC_Info/LeadKitAdditions.sinf</string>
+		<string>Frameworks/Nuke.framework/SC_Info/Nuke.sinf</string>
+		<string>Frameworks/PWSwitch.framework/SC_Info/PWSwitch.sinf</string>
+		<string>Frameworks/PinLayout.framework/SC_Info/PinLayout.sinf</string>
+		<string>Frameworks/Protobuf.framework/SC_Info/Protobuf.sinf</string>
+		<string>Frameworks/Pulley.framework/SC_Info/Pulley.sinf</string>
+		<string>Frameworks/RxAlamofire.framework/SC_Info/RxAlamofire.sinf</string>
+		<string>Frameworks/RxAtomic.framework/SC_Info/RxAtomic.sinf</string>
+		<string>Frameworks/RxCocoa.framework/SC_Info/RxCocoa.sinf</string>
+		<string>Frameworks/RxGesture.framework/SC_Info/RxGesture.sinf</string>
+		<string>Frameworks/RxKeyboard.framework/SC_Info/RxKeyboard.sinf</string>
+		<string>Frameworks/RxOptional.framework/SC_Info/RxOptional.sinf</string>
+		<string>Frameworks/RxSwift.framework/SC_Info/RxSwift.sinf</string>
+		<string>Frameworks/SkyFloatingLabelTextField.framework/SC_Info/SkyFloatingLabelTextField.sinf</string>
+		<string>Frameworks/SnapKit.framework/SC_Info/SnapKit.sinf</string>
+		<string>Frameworks/StatefulViewController.framework/SC_Info/StatefulViewController.sinf</string>
+		<string>Frameworks/SwiftDate.framework/SC_Info/SwiftDate.sinf</string>
+		<string>Frameworks/SwiftValidator.framework/SC_Info/SwiftValidator.sinf</string>
+		<string>Frameworks/SwiftyBeaver.framework/SC_Info/SwiftyBeaver.sinf</string>
+		<string>Frameworks/SwipeCellKit.framework/SC_Info/SwipeCellKit.sinf</string>
+		<string>Frameworks/TIAuthenticationKit.framework/SC_Info/TIAuthenticationKit.sinf</string>
+		<string>Frameworks/TableKit.framework/SC_Info/TableKit.sinf</string>
+		<string>Frameworks/UICollectionViewLeftAlignedLayout.framework/SC_Info/UICollectionViewLeftAlignedLayout.sinf</string>
+		<string>Frameworks/UIScrollView_InfiniteScroll.framework/SC_Info/UIScrollView_InfiniteScroll.sinf</string>
+		<string>Frameworks/nanopb.framework/SC_Info/nanopb.sinf</string>
+		<string>Frameworks/pop.framework/SC_Info/pop.sinf</string>
+		<string>SC_Info/VTBAccounting.sinf</string>
+	</array>
+</dict>
+</plist>
