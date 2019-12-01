@@ -34,7 +34,7 @@ Sunday, 01 December, 2019:
 - api.cifra.pw (*95.213.182.234*)
 
 **IPhone:**
-- Retrieval of *certificate.der*, GlobalSign RSA DV SSL CA 20180.
+- Retrieval of *certificate.der*, GlobalSign RSA DV SSL CA 20180.
 
 **OSINT:**
 - iOS: ANGRY DEVELOPERS S.R.L. / Parasca Kirill (*k.paraska@modulbank.ru*), Parasca Mihail
