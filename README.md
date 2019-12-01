@@ -26,6 +26,7 @@ Sunday, 01 December, 2019:
 1. Initialisation of the repository.
 2. Discovering the services. SSH: "authmethod_is_enabled password".
 3. Creating an example dump of applications connection between application and API (*connection.example*).
+4. Discovered extra API subdomains demo.api.cifra.pw and demo-api.cifra.pw.
 
 **Android:**
 - Using JWT authentication tokens (android.support.v4.media.session.MediaControllerCompat$MediaControllerImplApi21).
@@ -48,6 +49,21 @@ PORT    STATE    SERVICE      VERSION
 443/tcp open     ssl/http     Golang net/http server (Go-IPFS json-rpc or InfluxDB API)
 445/tcp filtered microsoft-ds
 Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+```
+
+```
+netname:         SELECTEL-NET
+descr:           Selectel SPb
+country:         RU
+admin-c:         CMH-RIPE
+admin-c:         KORS
+tech-c:          SA32710-RIPE
+status:          ASSIGNED PA
+
+route:           95.213.182.0/23
+descr:           SELECTEL-NET
+origin:          AS49505
+mnt-by:          MNT-SELECTEL
 ```
 
 **OSINT:**
