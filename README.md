@@ -24,6 +24,8 @@ Saturday, 30 November, 2019:
 
 Sunday, 01 December, 2019:
 1. Initialisation of the repository.
+2. Discovering the services. SSH: "authmethod_is_enabled password".
+3. Creating an example dump of applications connection between application and API (*connection.example*).
 
 **Android:**
 - Using JWT authentication tokens (android.support.v4.media.session.MediaControllerCompat$MediaControllerImplApi21).
@@ -33,8 +35,18 @@ Sunday, 01 December, 2019:
 - androidx.appcompat.app.J IP address retrieval.
 - api.cifra.pw (*95.213.182.234*)
 
-**IPhone:**
+**iPhone:**
 - Retrieval of *certificate.der*, GlobalSign RSA DV SSL CA 20180.
+
+**Network Discovery:**
+PORT    STATE    SERVICE      VERSION
+22/tcp  open     ssh          OpenSSH 7.4p1 Debian 10+deb9u6 (protocol 2.0)
+80/tcp  open     http         Golang net/http server (Go-IPFS json-rpc or InfluxDB API)
+135/tcp filtered msrpc
+139/tcp filtered netbios-ssn
+443/tcp open     ssl/http     Golang net/http server (Go-IPFS json-rpc or InfluxDB API)
+445/tcp filtered microsoft-ds
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
 
 **OSINT:**
 - iOS: ANGRY DEVELOPERS S.R.L. / Parasca Kirill (*k.paraska@modulbank.ru*), Parasca Mihail
