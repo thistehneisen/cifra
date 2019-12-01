@@ -1,5 +1,5 @@
 # Urban.Tech Moscow — VTB Cifra
-## Mobile Application Security Testing — SEQ.SCIENCE
+## Mobile Application Security Testing — [SEQ.SCIENCE](https://seq.science/)
 
 **Team:**
 1. Nils Putnins, Captain, Security Research
@@ -13,6 +13,7 @@
 - https://cifra.pw/
 
 **Roadmap:**
+
 Sunday, October 29, 2019:
 1. Communication with the client, basic information gathering.
 2. Decompilation of the APK (*1.4.546*) and static analysis.
