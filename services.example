@@ -1,0 +1,76 @@
+PORT    STATE    SERVICE      REASON      VERSION
+22/tcp  open     ssh          syn-ack     OpenSSH 7.4p1 Debian 10+deb9u6 (protocol 2.0)
+| ssh-hostkey:
+|   2048 24:17:0e:b8:54:6a:27:d7:66:6c:1b:f2:24:47:c2:d0 (RSA)
+| ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDVuJjhVo2Z3c4WFA6CPmRet/Z/ZI6MlKXMM3Uu+ogFl9FJzettr9wqMZgCu16tFpFyjVldCsuhWYiLmLpIuiEfh2L3h+uf2Fi7/U0eHYjFIKxELjyVN5o2Ge+gdZrorhXef1MXJhpsnHAwYKvf6w+MHdHZUNJV2fAFb8jVMoC+ajAVfFIiEJDnd3cAd+sW7zksn8x1SsxcYkCzpLWI+1FRRHoQuGDn06skeg/Dfr1EsUuB9orDED5eCJjB/bTNWGNLlwyrykYTOltweXuucYvRucapmD6hJxWHKl1rsLVl4vHeAkepMeYEFuDb/RexF4goxI/SnUC6RAW5+tL+GDxZ
+|   256 64:35:06:ac:ff:00:e2:90:cf:89:8a:9a:69:91:de:71 (ECDSA)
+| ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBEwGTyKiJLCn7TvoXOzPxTJwk3FlhsNjy6ouzqzxguGByGLcKmpwbkAUmWjvEKEltbAyVDUfmYBbW0OyGW1oIrM=
+|   256 04:10:14:4e:7b:21:1e:11:6f:16:1d:0c:76:be:86:1a (ED25519)
+|_ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIPi3lb1X7p7PkWCxBadO1XoidKdvHhPLaFsZqKeFox4x
+80/tcp  open     http         syn-ack     Golang net/http server (Go-IPFS json-rpc or InfluxDB API)
+|_http-title: Site doesn't have a title (text/plain; charset=utf-8).
+135/tcp filtered msrpc        no-response
+137/tcp filtered netbios-ns   no-response
+138/tcp filtered netbios-dgm  no-response
+139/tcp filtered netbios-ssn  no-response
+443/tcp open     ssl/http     syn-ack     Golang net/http server (Go-IPFS json-rpc or InfluxDB API)
+|_http-title: Site doesn't have a title (text/plain; charset=utf-8).
+| ssl-cert: Subject: commonName=*.cifra.pw/organizationalUnitName=Domain Control Validated
+| Subject Alternative Name: DNS:*.cifra.pw, DNS:cifra.pw
+| Issuer: commonName=GlobalSign RSA DV SSL CA 2018/organizationName=GlobalSign nv-sa/countryName=BE
+| Public Key type: rsa
+| Public Key bits: 4096
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2019-06-07T14:35:14
+| Not valid after:  2020-06-07T14:35:14
+| MD5:   499c 5557 af88 3b1d ee15 1609 6cd9 51ba
+| SHA-1: 8b97 bac5 cf3a e78d c2f1 de45 fff9 7fb3 eb1e 7693
+| -----BEGIN CERTIFICATE-----
+| MIIG4zCCBcugAwIBAgIMY4ZyDPGO6hjcHc+OMA0GCSqGSIb3DQEBCwUAMFAxCzAJ
+| BgNVBAYTAkJFMRkwFwYDVQQKExBHbG9iYWxTaWduIG52LXNhMSYwJAYDVQQDEx1H
+| bG9iYWxTaWduIFJTQSBEViBTU0wgQ0EgMjAxODAeFw0xOTA2MDcxNDM1MTRaFw0y
+| MDA2MDcxNDM1MTRaMDgxITAfBgNVBAsTGERvbWFpbiBDb250cm9sIFZhbGlkYXRl
+| ZDETMBEGA1UEAwwKKi5jaWZyYS5wdzCCAiIwDQYJKoZIhvcNAQEBBQADggIPADCC
+| AgoCggIBAOy4akAaiXel9M5KAWPQzn/+AF2o6Se1ga0TkG+vTi4cSUGACkW5NmOA
+| M4wXYz22Re8kvieHGQcZhVLtyu4orNolz+0t5qw3yfO8gXJLgvSqVgivzXelvPqS
+| R4qlw32yjHgrPYdyv2A8kKMa3+GUlzX095VLHfRMiKLuRJX8c8t8ScrP96+SUzuu
+| 3f6X4BvZlmu3QJKsKZJtvSbjC9pBr6SYBOyU3lm6/3lC1uZyeNydsNM++A6T0qDE
+| rX5wBquCAkpkPjsZo5iA4pdmffMb6SKNmm/l9MstQ2jo8/V6hu4DUBRtUNtJq5bh
+| wDlWj6Lz3ky5yNCyum8M/GCVHKywUZ7E2u4Su1Ya5B34fp80C6+qmx5wGksVdua0
+| QJ/zy6MGka+p+QJw8JwSDUEVArl2UipjyBG2512P3yUesmhOzmcVHv3B82RQHvpT
+| 1kZQsEKOBz3fwwCCkKHMoAAG/hIlV5WKk7xhD+v3XDv56qkkhMnippvwkzhU7X2G
+| uJr35yMade6Dhh+Jen0LMf6VSqp8tippOkAN6KpDM4H0I9W865e39ew3+Wk0uHGr
+| lucl5/fAhREwSGkLyF/DdtVT0FKKBojioYUuXJRx1lyOTEvwpV9zXViF8enIGtIw
+| Eb2FSIUC51PRzd+riANcNJDGPGGnlXXg8zb6kmYuhLSFW3d+gJAhAgMBAAGjggLT
+| MIICzzAOBgNVHQ8BAf8EBAMCBaAwgY4GCCsGAQUFBwEBBIGBMH8wRAYIKwYBBQUH
+| MAKGOGh0dHA6Ly9zZWN1cmUuZ2xvYmFsc2lnbi5jb20vY2FjZXJ0L2dzcnNhZHZz
+| c2xjYTIwMTguY3J0MDcGCCsGAQUFBzABhitodHRwOi8vb2NzcC5nbG9iYWxzaWdu
+| LmNvbS9nc3JzYWR2c3NsY2EyMDE4MFYGA1UdIARPME0wQQYJKwYBBAGgMgEKMDQw
+| MgYIKwYBBQUHAgEWJmh0dHBzOi8vd3d3Lmdsb2JhbHNpZ24uY29tL3JlcG9zaXRv
+| cnkvMAgGBmeBDAECATAJBgNVHRMEAjAAMD8GA1UdHwQ4MDYwNKAyoDCGLmh0dHA6
+| Ly9jcmwuZ2xvYmFsc2lnbi5jb20vZ3Nyc2FkdnNzbGNhMjAxOC5jcmwwHwYDVR0R
+| BBgwFoIKKi5jaWZyYS5wd4IIY2lmcmEucHcwHQYDVR0lBBYwFAYIKwYBBQUHAwEG
+| CCsGAQUFBwMCMB8GA1UdIwQYMBaAFIGA1ih5NUpbeTWJOY8SF24ReywRMB0GA1Ud
+| DgQWBBRcDIEWDk7jU05I42NON9h/8otAvDCCAQYGCisGAQQB1nkCBAIEgfcEgfQA
+| 8gB3AG9Tdqwx8DEZ2JkApFEV/3cVHBHZAsEAKQaNsgiaN9kTAAABazJdesEAAAQD
+| AEgwRgIhAMRxEFW0NdPHkXQGnY3CvXaRFSV1Sa13Qn1zxO34k82XAiEAwL1+BiaB
+| 18x3aeTiUkNgHM2TEBaVohqCeNhQfn7uxKQAdwDuS723dc5guuFCaR+r4Z5mow9+
+| X7By2IMAxHuJeqj9ywAAAWsyXX4BAAAEAwBIMEYCIQCIttJAmjRhkQLaVSbVqj8+
+| ZYtPbheeFxGzA7CDOf4gHQIhAOH8CFbqf7m5iE+G/eqwd/Xvvq4rHQA+4iyJR8wh
+| 8GezMA0GCSqGSIb3DQEBCwUAA4IBAQBOm8cB6MY8dGr0Tf6psaK0WZlpnxHJSQcq
+| VVigPkTMyvC6EYJ6JtAo5kveeQer+Zqej90VEbGeWpJTHTxP6vxWG/17itP7riRT
+| g/yhCoui/eDZcGefAQ66Yvq1oJIXeI1s3wyNUoHFcG9zCMLI++gMVZcgdoqviAHK
+| GkYS3cEXR9LpsMp/ARkwe1Os2V2ATsItJeRyhivQsvOouFlAvG4JTKQ6ahypubNo
+| uNvMaKsU42UWucD43r06A3JOkRzT9+Mo+jjWIv68HSrHlx6GZjKMdDaqMqBAl4l1
+| +PO0jq6sQxj2b5KpSpMrgD3hHq5TqwIuxbSTpWhwnf4w5rWy4tK9
+|_-----END CERTIFICATE-----
+|_ssl-date: TLS randomness does not represent time
+| tls-alpn:
+|   h2
+|_  http/1.1
+| tls-nextprotoneg:
+|   h2
+|   http/1.1
+|_  acme-tls/1
+445/tcp filtered microsoft-ds no-response
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
